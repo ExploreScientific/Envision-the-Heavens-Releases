@@ -63,13 +63,14 @@ The features in this section are new to Envision or significantly expanded compa
 | 48 | Chart Settings | Envision includes dedicated chart configuration. Users can tailor Star Seeker to observing preferences and display needs. |
 | 49 | Offline Chart Data | Envision emphasizes offline catalog and chart operation. This is important for field use where internet access may be unavailable. |
 | 50 | Firmware Config | Envision exposes firmware configuration as a connected tool. It brings controller setup closer to the main observing workflow. |
-| 51 | Enhanced Virtual Alignment Mount Modeling | Envision adds an enhanced virtual alignment mount modeling tool based on a seven-star alignment model. The model provides pointing corrections for polar alignment error, home-position error, mount leveling error, cone angle, and related mechanical or setup offsets. |
-| 52 | Star Alignment | Envision includes a dedicated multi-star alignment workflow. This helps improve mount pointing accuracy after setup and supports the virtual alignment model. |
-| 53 | Daylight Polar Alignment | Envision adds a daylight polar-alignment tool. This gives users a specialized setup aid before nighttime observing. |
-| 54 | Meridian Flip Control | Envision exposes meridian flip behavior as a user-facing control panel. This is especially useful for German equatorial mount operation. |
-| 55 | Spiral Search | Envision adds an integrated expanding-pattern search tool. It helps locate objects that are near but not centered in the eyepiece or camera field. |
-| 56 | Log Page | Envision includes a dedicated log screen for application and connection activity. This helps users diagnose setup, connection, and control issues. |
+| 51 | Astronomy Calculators | Envision includes built-in astronomy and optics calculators for common observing setup tasks. These tools help users estimate values such as field of view, magnification, and other telescope/eyepiece relationships without leaving the app. |
+| 52 | Enhanced Virtual Alignment Mount Modeling | Envision adds an enhanced virtual alignment mount modeling tool based on a seven-star alignment model. The model provides pointing corrections for polar alignment error, home-position error, mount leveling error, cone angle, and related mechanical or setup offsets. |
+| 53 | Star Alignment | Envision includes a dedicated multi-star alignment workflow. This helps improve mount pointing accuracy after setup and supports the virtual alignment model. |
+| 54 | Daylight Polar Alignment | Envision adds a daylight polar-alignment tool. This gives users a specialized setup aid before nighttime observing. |
+| 55 | Meridian Flip Control | Envision exposes meridian flip behavior as a user-facing control panel. This is especially useful for German equatorial mount operation. |
+| 56 | Spiral Search | Envision adds an integrated expanding-pattern search tool. It helps locate objects that are near but not centered in the eyepiece or camera field. |
+| 57 | Log Page | Envision includes a dedicated log screen for application and connection activity. This helps users diagnose setup, connection, and control issues. |
 
 ## Summary
 
-ExploreStars Envision retains the core telescope-control functions users know from legacy ExploreStars: mount connection, WiFi control, model selection, target selection, GoTo, Sync, manual slewing, tracking, and night-friendly observing support. Envision then expands the platform with Bluetooth connectivity, a modern multi-page interface, persistent telemetry, Star Seeker charting, push-to observing, richer target tools, and an enhanced seven-star virtual alignment mount modeling system.
+ExploreStars Envision retains the core telescope-control functions users know from legacy ExploreStars: mount connection, WiFi control, model selection, target selection, GoTo, Sync, manual slewing, tracking, and night-friendly observing support. Envision then expands the platform with Bluetooth connectivity, a modern multi-page interface, persistent telemetry, Star Seeker charting, push-to observing, richer target tools, astronomy calculators, and an enhanced seven-star virtual alignment mount modeling system.
