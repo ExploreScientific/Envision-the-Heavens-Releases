@@ -12,5 +12,3 @@ Use the latest GitHub Release for current customer downloads:
 - Windows ZIP
 - PWA Server ZIP for Apple devices and browser-equipped devices
 - SHA256 checksum file
-
-The `release-assets/latest` folder mirrors the current release assets for local staging.
