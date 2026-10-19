@@ -1,8 +1,10 @@
-# ExploreStars Envision — Privacy Policy
+# Envision the Heavens™ — Privacy Policy
 
 **Effective date:** September 12, 2026
 
-ExploreStars Envision™ ("the app") is a telescope-mount controller for Explore Scientific™ PMC-Eight™ mounts, developed by Wes McDonald, an OpenGOTO™ Community developer. This policy explains what information the app uses and where it goes.
+**Last updated:** October 19, 2026 (the app's name changed; the policy did not)
+
+Envision the Heavens™ ("Envision" or "the app"), formerly ExploreStars Envision, is a telescope-mount controller for Explore Scientific™ PMC-Eight™ mounts, developed by Wes McDonald, an OpenGOTO™ Community developer. This policy explains what information the app uses and where it goes.
 
 ## The short version
 
@@ -42,8 +44,8 @@ If this policy changes, the updated version will be posted at this address with 
 
 ## Contact
 
-ExploreStars Envision is developed by Wes McDonald. For privacy questions about the app, contact Jerry Hubbell, Explore Scientific: [jrh@explorescientific.com](mailto:jrh@explorescientific.com)
+Envision the Heavens is developed by Wes McDonald. For privacy questions about the app, contact Jerry Hubbell, Explore Scientific: [jrh@explorescientific.com](mailto:jrh@explorescientific.com)
 
 ---
 
-*Explore Scientific, ExploreStars, OpenGOTO, and PMC-Eight are trademarks of Explore Scientific, LLC. ExploreStars Envision is a trademark of Wes McDonald.*
+*Explore Scientific, ExploreStars, OpenGOTO, and PMC-Eight are trademarks of Explore Scientific, LLC. Envision the Heavens is a trademark of Wes McDonald.*
