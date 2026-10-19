@@ -1,8 +1,8 @@
-# ExploreStars Envision&trade; - Data & Software Attributions
+# Envision the Heavens&trade; - Data & Software Attributions
 
 **Copyright &copy; 2026 Wes McDonald. All rights reserved.**
 
-ExploreStars Envision&trade; is provided as a compiled binary for personal
+Envision the Heavens&trade; is provided as a compiled binary for personal
 use with the Explore Scientific&trade; PMC-Eight&trade; mount. The source
 code is not publicly distributed. Redistribution of the unmodified binary
 is permitted; modification, reverse engineering, decompilation, and source
@@ -11,14 +11,14 @@ any kind.
 
 ## Trademarks
 
-- **ExploreStars Envision&trade;** is a trademark of Wes McDonald.
+- **Envision the Heavens&trade;** is a trademark of Wes McDonald.
 - **Explore Scientific&trade;**, **ExploreStars&trade;**, and
   **PMC-Eight&trade;** are trademarks of Explore Scientific, LLC, and are
   used here with acknowledgement.
 
 ## Independence and endorsement
 
-ExploreStars Envision&trade; is an independent application that controls
+Envision the Heavens&trade; is an independent application that controls
 Explore Scientific&trade; PMC-Eight&trade; telescope mounts. The
 application code and project materials are authored and owned by Wes
 McDonald except where third-party credits are listed below. If Explore
@@ -30,7 +30,7 @@ Explore Scientific authorship or ownership of the app.
 ## About this document
 
 This document credits every external data source, license, and software
-dependency bundled with ExploreStars Envision&trade;. It is the canonical
+dependency bundled with Envision the Heavens&trade;. It is the canonical
 attribution record. The bundled user manual section
 **Credits & Data Sources** summarizes this information for end users; this
 file is the authoritative version.
@@ -48,7 +48,7 @@ file is the authoritative version.
   &mdash; <https://creativecommons.org/licenses/by/4.0/>
 - **Source:** <https://github.com/dcf21/constellation-stick-figures>
 - **Modifications:** the original `.dat` source has been re-encoded into
-  JSON form with HIP-pair endpoints for use by ExploreStars Envision. No
+  JSON form with HIP-pair endpoints for use by Envision. No
   intended changes were made to the underlying stick-figure line choices.
 
 CC BY 4.0 requires that we credit the creators and indicate any changes
@@ -62,7 +62,7 @@ metadata block recording the same credits and license.
 
 Portions of the original object database were derived from the **Explore
 Scientific&trade; ExploreStars&trade;** database and are used with
-permission from Explore Scientific. The bundled ExploreStars Envision
+permission from Explore Scientific. The bundled Envision
 catalog has since been curated, normalized, corrected, and augmented using
 public astronomical catalogues and reference services, including ESA
 Hipparcos/Tycho, the Yale Bright Star Catalog where applicable, RNGC/IC,
@@ -83,6 +83,12 @@ derived from the European Space Agency (ESA) **Hipparcos** and
 - **Catalogue references:**
   - Hipparcos Catalogue (1997): VizieR I/239
   - Tycho-II Catalogue (2000): VizieR I/259
+
+Star positions, proper motions, magnitudes and HIP / HD / HR
+cross-references of about 250 entries were corrected against the **HYG
+database v4.0** (David Nash, astronexus; CC BY-SA 4.0;
+https://codeberg.org/astronexus/hyg), itself compiled from Hipparcos,
+Yale Bright Star and Gliese (`tools/fix_catalog_from_hyg.py`).
 
 Cross-reference identifiers used to label catalogue entries &mdash;
 **Bayer**, **Flamsteed**, **SAO**, **HD / Harvard**, **DM**,
@@ -151,14 +157,14 @@ discussions during development and assistance with field testing.
 
 Thanks to **Ignazio Pillitteri** for contributing the Linux/macOS PWA
 server bash script (`start-servers.sh`) and Caddyfile cross-platform
-improvements that enable ExploreStars Envision to run on Linux and
+improvements that enable Envision to run on Linux and
 macOS hosts in addition to Windows.
 
 ---
 
 ## Software dependencies
 
-ExploreStars Envision&trade; depends on the following open-source
+Envision the Heavens&trade; depends on the following open-source
 libraries. License texts are bundled with the .NET runtime and the
 corresponding NuGet packages installed at build time.
 
@@ -176,7 +182,7 @@ corresponding NuGet packages installed at build time.
 
 ## Application code
 
-The ExploreStars Envision&trade; application &mdash; Razor pages,
+The Envision the Heavens&trade; application &mdash; Razor pages,
 services, JavaScript chart engine (Star Seeker), build scripts, and
 supporting tooling &mdash; is the work of **Wes McDonald** and is
 released under the all-rights-reserved binary terms stated at the top of
