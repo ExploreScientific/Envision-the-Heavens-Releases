@@ -140,9 +140,9 @@ Object images shown on the Target page and the Star Seeker chart are sourced fro
     allowed ("rotate and adjust the colors as needed").
   - **Target page pictures from those fields:** `images/NGC7822.jpg` (the whole
     NGC 7822 frame), and crops placed with his plate solves: `images/Ced214.jpg`
-    (0.9° around NGC 7822's bright rim), `images/WR134.jpg` (0.55° around WR 134's
-    ring) and `images/Sh2-104.jpg` (0.45°), the last two from the Tulip field; each
-    scaled to 500 × 500.
+    (0.9° around NGC 7822's bright rim) and `images/Sh2-104.jpg` (0.45°, from the
+    Tulip field); each scaled to 500 × 500. (`images/WR134.jpg` was a crop of the
+    Tulip field until 2026-11; it is now Jim McKee's own picture of the WR 134 ring.)
   - **Permission, in his words (2026-10-30, adding Sadr to his 2026-10-26 list):** "I
     hereby allow Explore Scientific and Wes McDonald the right to use my images
     (listed specifically below) for the purposes of their programming, advertising,
@@ -221,6 +221,12 @@ Object images shown on the Target page and the Star Seeker chart are sourced fro
   `images/NGC5139.jpg` (the Target page) is the middle of it; `images/NGC5139-wide.jpg`
   (the chart) is his whole frame, scaled from 2248 × 2248 to 1400 × 1400. Traced with
   `tools/image_credit_trace.py` (10/2026): the first set of pictures had no credit.
+- **Chuck Ayoub** &mdash; M35 and NGC 2158, from Wikimedia Commons:
+  <https://commons.wikimedia.org/wiki/File:M35_and_NGC_2158.png>. CC0 1.0.
+  `images/M35.jpg` came with the app's first set of pictures, without a credit: turned
+  about 99&deg;, cropped and colour-adjusted from his 2405 &times; 2092 frame, scaled to
+  500 &times; 500, and since 11/2026 with a darker black point so it blends on the chart.
+  Traced 11/2026 (a rotation search matched the star field).
 - **Kevinmloch** &mdash; the Large Magellanic Cloud rendered from Gaia EDR3, from Wikimedia
   Commons: <https://commons.wikimedia.org/wiki/File:Large_Magellanic_Cloud_rendered_from_Gaia_EDR3.png>.
   CC BY-SA 4.0. `images/LMC.jpg` (the Target page): cropped to a square and scaled to
@@ -307,6 +313,25 @@ Positions are computed from algorithms in:
 The mathematics is in the public domain; credit is retained here as a
 courtesy to the author whose presentation made the implementation
 practical.
+
+---
+
+## Comets, meteor showers, and Earth's position
+
+**Comets.** Orbital elements: **IAU Minor Planet Center** (`CometEls.txt`,
+<https://www.minorplanetcenter.net/iau/MPCORB/CometEls.txt>). The app downloads
+the file and refreshes it weekly; nothing from it ships with the app. Comet
+positions and estimated magnitudes are computed on the device from these
+elements.
+
+**Earth's position** for comet positions: the **VSOP87** planetary theory,
+P. Bretagnon and G. Francou, *Astronomy and Astrophysics* 202, 309 (1988),
+series VSOP87A as published by IMCCE (Paris Observatory), cut to its larger
+terms (`tools/comets/vsop87_earth.py`).
+
+**Meteor showers.** Shower dates, radiants, drift, speeds and rates come from
+the **International Meteor Organization**'s Working List of Visual Meteor
+Showers (<https://www.imo.net/>), built into a yearly file the app downloads.
 
 ---
 
